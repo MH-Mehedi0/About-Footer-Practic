@@ -1,0 +1,150 @@
+/*ABOUT SECTION*/
+.about{
+    width: 100%;
+    height: 540px;
+    background: #efefef;
+    display: flex;
+}
+.about-left img{
+    float: left;
+    width: 720px;
+    height: 540px;
+    background-size: cover;
+}
+.about-right{
+    box-sizing: border-box;
+    width: 650px;
+    height: 440px;
+    padding: 52px 0px 0px 80px;
+}
+
+.about-text{
+    text-align: left;
+    
+}
+.about-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-text>p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+.about-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrap>.icon-number{
+    margin-right: 50px;
+}
+
+.icon-number{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 35px;
+    background: #ffffff;
+    padding: 10px;
+    
+}
+.number{
+    margin-left: 35px;
+    line-height: 9px;
+    font-size: 25px;
+    color: #ab7442;
+}
+.number>p{
+    font-size: 20px;
+    color: black;
+}
+.about-btn{
+    margin-top: 40px;
+}
+.about-btn a{
+    text-decoration: none;
+    color: white;
+    background: #ab7442;
+    padding: 20px 30px;
+}
+
+/*FOOTER AREA */
+
+.footer{
+    background: #5b5b5b;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-rap{
+    width: 1250px;
+    height: 350px;
+    align-items: center;
+    margin: 0 auto;
+    padding:120px 10px 40px 40px;
+}
+
+.footer-title{
+    color: white;
+    font-size: 18px;
+}
+.footer-info{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 0px;
+}
+.footer-icons{
+    margin-left: 15px;
+}
+
+.footer-social-links .fa-brands{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+
+/*SERVICE SECTION*/
+.footer-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-icons a:hover{
+    color: #ab7442;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+.newsletter-info{
+    width: 320px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.input-btn a{
+    text-decoration: none;
+    color: white;
+    background: #ab7442;
+    padding: 10px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
